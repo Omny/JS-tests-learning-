@@ -1,7 +1,7 @@
 import { strict as assert } from 'assert';
 import capitalize from '../src/capitalize.js';
 
-assert.deepEqual(capitalize(''), '');
-assert.deepEqual(capitalize('hello'), 'Hello');
+assert.deepStrictEqual(capitalize(''), '');
+assert.deepStrictEqual(capitalize('hello'), 'Hello');
 
 console.log('All tests finished!');
