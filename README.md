@@ -1,2 +1,2 @@
-# JS-tests-learning-
-Repository for learning tests
+# JS tests learning
+Repository for learning tests on Hexlet
